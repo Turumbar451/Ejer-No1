@@ -1,0 +1,29 @@
+//PRIMER EJERCICIO
+function a (b){
+    console.log(b.length);
+}
+a("hola mundo");
+
+//SEGUNDO,NO PUDE HACERLO BIEN
+function dos (texto,numero){
+    for(let res =0;res<numero;res++){ 
+     let uwu = texto[res];           
+ console.log(uwu);
+    }
+}
+dos("hola mundo", 4);
+
+//TERCER EJERCICIO
+function tres (array,par){
+ owo =array.split(par);
+    console.log(owo);
+}
+tres("hola que tal", " ")
+
+//CUARTO EJERCICIO
+function cuatro (str, num){
+ for (let i=1;i<=num;i++){
+     console.log(str);
+ }
+}
+cuatro("hola mundo", 4);
